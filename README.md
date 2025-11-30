@@ -42,7 +42,7 @@ This project demonstrates the end-to-end process of building a data science appl
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/Metopher/house-price-prediction.git
+    git clone https://github.com/your-username/house-price-prediction.git
     cd house-price-prediction
     ```
 
