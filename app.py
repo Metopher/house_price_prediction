@@ -16,7 +16,6 @@ def local_css(file_name):
 
 st.set_page_config(
     page_title="House Price Prediction",
-    page_icon="🏠",
     layout="centered"
 )
 
@@ -33,7 +32,7 @@ except FileNotFoundError:
 # The card styling is now applied to the whole container in CSS.
 
 # Header Section
-st.markdown('<div class="app-title">🏠 Real Estate Estimator</div>', unsafe_allow_html=True)
+st.markdown('<div class="app-title">Real Estate Estimator</div>', unsafe_allow_html=True)
 st.markdown(
     '<div class="app-subtitle">AI-powered valuation based on property specifications.</div>',
     unsafe_allow_html=True

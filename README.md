@@ -1,15 +1,15 @@
-# 🏠 House Price Prediction App
+# House Price Prediction App
 
 A machine learning-powered web application that estimates house prices in India based on property specifications. This project utilizes a dataset of housing features to train predictive models and serves them via an interactive Streamlit interface.
 
-## 📋 Project Overview
+## Project Overview
 
 This project demonstrates the end-to-end process of building a data science application:
 1.  **Data Analysis:** Exploratory Data Analysis (EDA) on housing data.
 2.  **Model Training:** Training and tuning machine learning models (Linear Regression, Decision Trees, Random Forest) using Scikit-Learn.
 3.  **Deployment:** Building a user-friendly web interface using Streamlit.
 
-## ✨ Features
+## Features
 
 *   **Interactive UI:** Clean, custom-styled interface built with Streamlit.
 *   **Real-time Valuation:** Instant price estimation based on user inputs.
@@ -20,7 +20,7 @@ This project demonstrates the end-to-end process of building a data science appl
     *   Number of Schools Nearby
 *   **Custom Styling:** Enhanced visual experience using custom CSS.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 *   **Python** (Core Language)
 *   **Pandas & NumPy** (Data Manipulation)
@@ -28,7 +28,7 @@ This project demonstrates the end-to-end process of building a data science appl
 *   **Streamlit** (Web Framework)
 *   **Joblib** (Model Serialization)
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 ├── app.py                 # Main Streamlit application script
@@ -61,7 +61,7 @@ This project demonstrates the end-to-end process of building a data science appl
     streamlit run app.py
     ```
 
-## 📊 Model Details
+## Model Details
 
 The project explores multiple regression algorithms to determine the best fit for the data. The `notebook.ipynb` file contains:
 *   Data cleaning and preprocessing.
@@ -69,10 +69,10 @@ The project explores multiple regression algorithms to determine the best fit fo
 *   Hyperparameter tuning using `GridSearchCV`.
 *   Evaluation of models like Linear Regression, Decision Tree Regressor, and Random Forest Regressor.
 
-## 📝 Dataset
+## Dataset
 
 The dataset used in this project is `House Price India.csv`, sourced from Kaggle. It contains various features regarding houses in India, including location coordinates, area details, and amenities.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/Metopher/house-price-prediction/issues).
