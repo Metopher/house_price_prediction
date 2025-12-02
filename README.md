@@ -73,6 +73,3 @@ The project explores multiple regression algorithms to determine the best fit fo
 
 The dataset used in this project is `House Price India.csv`, sourced from Kaggle. It contains various features regarding houses in India, including location coordinates, area details, and amenities.
 
-## Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/Metopher/house-price-prediction/issues).
